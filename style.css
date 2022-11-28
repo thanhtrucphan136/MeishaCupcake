@@ -530,6 +530,21 @@ textarea{
     background-color: #981a57;
     color: #fff;
     font-family: Nerko;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.complete-btn{
+    position: relative;
+    left: 920px;
+    bottom: 220px;
+    border: none;
+    border-radius: 15px;
+    width: 300px;
+    padding: 15px 15px;
+    font-size: 20px;
+    background-color: #981a57;
+    color: #f4ecec;
+    font-family: Nerko;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .filler{
     height: 75px;
