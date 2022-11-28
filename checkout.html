@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meisha's Checkout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="right-header">
+            <div class="logo header-sub"> 
+                <img src="./img/logo.png" class="logo-img">
+                <span>Meisha Cupcakes</span>
+            </div>
+        </div>
+        <div class="left-header">
+            <a href="./index.html" class="header-sub">Home</a>
+            <a href="./menu.html" class="header-sub">Cupcakes</a>
+            <a href="./contact.html" class="header-sub">Contact</a>
+            <a href="./shoppingbag.html" class="header-sub"><img src="./img/bag.png" class="bag"></a> <span class="bag-num">4</span>
+        </div>
+    </div>
+    <div class="checkout-page">
+        <div class="checkout">
+            <div class="checkout-title">Checkout</div>
+            <div class="checkout-info">
+                <div>Personal Information</div>
+                <div>
+                    <input type="text" placeholder="First name" class="checkout-input-small">
+                    <input type="text" placeholder="Last name" class="checkout-input-small">
+                </div>
+                <div><input type="email" placeholder="Email" class="checkout-input"></div>
+                <div><input type="number" placeholder="Phone number" class="checkout-input"></div>
+            </div>
+            <div class="delivery">
+                <div>Delivery Options</div>
+                <div class="pickup">
+                    <input type="radio" id="pick-up" name="delivery-option">
+                    <label for="pick-up">In-store Pickup</label>
+                </div>
+                <div class="deliver">
+                    <input type="radio" id="delivery"  name="delivery-option">
+                    <label for="delivery">Delivery</label>
+                    <div class="deli-info">
+                        <div>Delivery Information (Delivery Only)</div>
+                        <div><input type="text" placeholder="Street number" class="checkout-input"></div>
+                        <div>
+                            <input type="text" placeholder="City" class="checkout-input-small">
+                            <input type="text" placeholder="Zip code" class="checkout-input-small">
+                        </div>
+                        <div><input type="text" placeholder="State" class="checkout-input"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="payment">
+                <div>Payment Information</div>
+                <div><input type="text" placeholder="Name on card" class="checkout-input"></div>
+                <div><input type="number" placeholder="Card number" class="checkout-input"></div>
+                <div>
+                    <input type="text" placeholder="Expireation (MM/YY)" class="checkout-input-small">
+                    <input type="number" placeholder="CVV" class="checkout-input-small">
+                </div>
+            </div>
+        </div>
+        <div class="order-summary">
+            <div>
+                <span class="summary-title">Order Summary</span>
+                <button class="edit-btn">Edit bag</button>
+            </div>
+            <div class="item-checkout">
+                <div class="summary-name">Sundae Funday</div>
+                <div class="summary-qty-price">
+                    <div>2x</div>
+                    <div class="summary-price">$30</div>
+                </div>
+            </div>
+            <div class="item-checkout">
+                <div class="summary-name">Anzac Day Cookie</div>
+                <div class="summary-qty-price">
+                    <div>1x</div>
+                    <div class="summary-price">$10</div>
+                </div>
+            </div>
+            <div class="item-checkout">
+                <div class="summary-name">Hawaii Kawaii</div>
+                <div class="summary-qty-price">
+                    <div>1x</div>
+                    <div class="summary-price">$10</div>
+                </div>
+            </div>
+            <div class="summary-total">
+                <div>Total</div>
+                <div>$50</div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

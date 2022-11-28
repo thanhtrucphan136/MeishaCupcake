@@ -418,7 +418,7 @@ button:hover{
 .contact-us{
     font-size: 30px;
 }
-input{
+.form input{
     border: none;
     border-radius: 10px;
     width: 200px;
@@ -443,6 +443,93 @@ textarea{
     color: #f4ecec;
     font-family: Nerko;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.checkout-page{
+    display: flex;
+}
+.checkout{
+    margin: 40px 0 0 200px;
+    font-size: 19px;
+    padding-right: 200px;
+    color: #0d4954;
+}
+.checkout-title{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.checkout-info, .delivery,.deli-info,.payment{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.deli-info{
+    margin-top: 15px;
+}
+.payment{
+    margin-top: -17px;
+}
+.checkout-input-small{
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 20px;
+    padding: 10px;
+}
+.checkout-input{
+    width: 425px;
+    border: none;
+    border-radius: 10px;
+    height: 20px;
+    padding: 10px;
+}
+.order-summary{
+    margin-top: 140px;
+    margin-right: 100px;
+    padding: 20px;
+    width: 400px;
+    height: 460px;
+    background-color: #f7f5c0;
+    color: #0d4954;
+    font-size: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.summary-title{
+    font-size: 32px;
+    margin-left: 5px;
+    margin-right: 110px;
+    color: #981a57;
+}
+.item-checkout{
+    font-size: 25px;
+    display: flex;
+    gap: 45px;
+}
+.summary-name{
+    width: 250px;
+}
+.summary-qty-price{
+    display: flex;
+    gap: 30px;
+}
+.summary-total{
+    display: flex;
+    font-size: 30px;
+    gap: 275px;
+    margin-top: 200px;
+    color: #981a57;
+}
+.edit-btn{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #981a57;
+    color: #fff;
+    font-family: Nerko;
 }
 .filler{
     height: 75px;
