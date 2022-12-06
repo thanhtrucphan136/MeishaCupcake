@@ -36,6 +36,7 @@ html,body{
     margin-left: 10px;
     font-family: Nerko;
 }
+
 .logo-img{
     margin: none;
     height: 30px;
@@ -80,6 +81,10 @@ html,body{
 }
 .header-sub:hover{
     text-decoration: underline;
+}
+.header-sub a{
+    text-decoration: none;
+    color: #981a57;
 }
 .content-1{
     margin: 0;
